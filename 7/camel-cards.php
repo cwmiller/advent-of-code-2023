@@ -47,7 +47,7 @@ class CamelCardsCli extends CLI
 
     protected function setup(Options $options)
     {
-        $options->setHelp('Day 6: Wait For It');
+        $options->setHelp('Day 7: Camel Cards');
         $options->registerArgument('input-file', 'Path to input', true);
         $options->registerOption('enable-jokers', '[Part 2] Turn Js into Jokers');
     }
