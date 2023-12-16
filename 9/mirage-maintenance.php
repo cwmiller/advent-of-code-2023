@@ -7,7 +7,7 @@ class MirageMaintenanceCli extends CLI
 {
     protected function setup(Options $options)
     {
-        $options->setHelp('Day 8: Mirage Maintenance');
+        $options->setHelp('Day 9: Mirage Maintenance');
         $options->registerArgument('input-file', 'Path to input', true);
         $options->registerOption('backwards', '[Part 2] extrapolate backwards');
     }
